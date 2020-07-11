@@ -1,0 +1,27 @@
+class yearlyBills:
+  def __init__(self,billID,date,payvalue, name, company, reminder, address):
+    self._ID =input("Add ID: ")
+    #self._paydate = int(input("Add date: "))
+    self._payvalue = int(input("Add payvalue: "))
+    self.name= input("Add name"))
+    self.company= input("Add company"))
+    self.paymentstatus= paymentstatus
+    #self.reminder=reminder
+    self.address=input("Add address: ")
+
+class schoolfeeBills(yearlyBills):
+  pass
+class coursesBills(yearlyBills):
+  pass
+class insuranceBills(yearlyBills):
+  pass
+class planeBills(yearlyBills):
+  pass
+class accommodation(yearlyBills):
+  pass
+class transportation(yearlyBills):
+  pass
+class carTesting(yearlyBills):
+  pass
+class yearlyOthers(yearlyBills):
+  pass

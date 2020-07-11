@@ -1,0 +1,25 @@
+class monthlyBills:
+  def __init__(self,billID,date,payvalue, name, company, reminder, address):
+    self._ID =input("Add ID: ")
+    #self._paydate = int(input("Add date: "))
+    self._payvalue = int(input("Add payvalue: "))
+    self.name= input("Add name"))
+    self.company= input("Add company"))
+    self.paymentstatus= paymentstatus
+    #self.reminder=reminder
+    self.address=input("Add address: ")
+
+class telephoneBills(monthlyBills):
+  pass
+class waterBills(monthlyBills):
+  pass
+class electricityBills(monthlyBills):
+  pass
+class medicalCheckups(monthlyBills):
+  pass
+class houseTax(monthlyBills):
+  pass
+class monthlyOthers(monthlyBills):
+  pass
+
+
